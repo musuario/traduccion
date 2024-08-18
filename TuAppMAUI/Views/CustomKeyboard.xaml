@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TuAppMAUI.Views.CustomKeyboard">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <!-- Espacio flexible arriba -->
+            <RowDefinition Height="Auto" />
+            <!-- Espacio para el teclado en la parte inferior -->
+        </Grid.RowDefinitions>
+
+        <!-- Espacio arriba del teclado (puede dejarse vacío si no se necesita contenido arriba) -->
+        <BoxView Grid.Row="0" />
+
+        <!-- Teclado en la parte inferior -->
+        <Grid Grid.Row="1" Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Primera Fila -->
+            <ImageButton AutomationId="ButtonQ" Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="0" Grid.Column="0" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton AutomationId="ButtonW" Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="0" Grid.Column="1" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton AutomationId="ButtonE" Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="0" Grid.Column="2" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton AutomationId="ButtonR" Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="0" Grid.Column="3" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton AutomationId="ButtonT" Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="0" Grid.Column="4" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton AutomationId="ButtonY" Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="0" Grid.Column="5" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton AutomationId="ButtonU" Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="0" Grid.Column="6" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton AutomationId="ButtonI" Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="0" Grid.Column="7" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton AutomationId="ButtonO" Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="0" Grid.Column="8" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton AutomationId="ButtonP" Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="0" Grid.Column="9" Margin="5" Clicked="OnKeyClicked" />
+
+            <!-- Segunda Fila -->
+            <ImageButton Source="e2.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="1" Grid.Column="0" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton Source="e2.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="1" Grid.Column="1" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton Source="e2.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="1" Grid.Column="2" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton Source="e2.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="1" Grid.Column="3" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton Source="e2.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="1" Grid.Column="4" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton Source="e2.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="1" Grid.Column="5" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton Source="e2.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="1" Grid.Column="6" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton Source="e2.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="1" Grid.Column="7" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton Source="e2.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="1" Grid.Column="8" Margin="5" Clicked="OnKeyClicked" />
+            <ImageButton Source="e2.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Row="1" Grid.Column="9" Margin="5" Clicked="OnKeyClicked" />
+
+            <!-- Tercera Fila (Centrada) -->
+            <Grid Grid.Row="2" Grid.ColumnSpan="10" HorizontalOptions="Center" VerticalOptions="Center">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="Auto" />
+                </Grid.ColumnDefinitions>
+
+                <ImageButton Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Column="0" Margin="5" Clicked="OnKeyClicked" />
+                <ImageButton Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Column="1" Margin="5" Clicked="OnKeyClicked" />
+                <ImageButton Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Column="2" Margin="5" Clicked="OnKeyClicked" />
+                <ImageButton Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Column="3" Margin="5" Clicked="OnKeyClicked" />
+                <ImageButton Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Column="4" Margin="5" Clicked="OnKeyClicked" />
+                <ImageButton Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Column="5" Margin="5" Clicked="OnKeyClicked" />
+                <ImageButton Source="e1.png" Aspect="AspectFit" WidthRequest="30" HeightRequest="30" Grid.Column="6" Margin="5" Clicked="OnKeyClicked" />
+            </Grid>
+
+            <!-- Cuarta Fila -->
+            <Button Text="0" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" Margin="5" Clicked="OnKeyClicked" />
+            <Button Text="Enter" Grid.Row="3" Grid.Column="2" Margin="5" Clicked="OnEnterClicked" />
+        </Grid>
+    </Grid>
+</ContentView>

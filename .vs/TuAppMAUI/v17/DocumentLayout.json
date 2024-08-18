@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kevin\\source\\repos\\TuAppMAUI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01C50DF6-2599-44DD-BBB3-B93EBA727CC6}|TuAppMAUI\\TuAppMAUI.csproj|c:\\users\\kevin\\source\\repos\\tuappmaui\\tuappmaui\\views\\customkeyboard.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{01C50DF6-2599-44DD-BBB3-B93EBA727CC6}|TuAppMAUI\\TuAppMAUI.csproj|solutionrelative:tuappmaui\\views\\customkeyboard.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01C50DF6-2599-44DD-BBB3-B93EBA727CC6}|TuAppMAUI\\TuAppMAUI.csproj|c:\\users\\kevin\\source\\repos\\tuappmaui\\tuappmaui\\views\\customkeyboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{01C50DF6-2599-44DD-BBB3-B93EBA727CC6}|TuAppMAUI\\TuAppMAUI.csproj|solutionrelative:tuappmaui\\views\\customkeyboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomKeyboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\TuAppMAUI\\TuAppMAUI\\Views\\CustomKeyboard.xaml.cs",
+              "RelativeDocumentMoniker": "TuAppMAUI\\Views\\CustomKeyboard.xaml.cs",
+              "ToolTip": "C:\\Users\\kevin\\source\\repos\\TuAppMAUI\\TuAppMAUI\\Views\\CustomKeyboard.xaml.cs",
+              "RelativeToolTip": "TuAppMAUI\\Views\\CustomKeyboard.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAIwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T04:14:24.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomKeyboard.xaml",
+              "DocumentMoniker": "C:\\Users\\kevin\\source\\repos\\TuAppMAUI\\TuAppMAUI\\Views\\CustomKeyboard.xaml",
+              "RelativeDocumentMoniker": "TuAppMAUI\\Views\\CustomKeyboard.xaml",
+              "ToolTip": "C:\\Users\\kevin\\source\\repos\\TuAppMAUI\\TuAppMAUI\\Views\\CustomKeyboard.xaml",
+              "RelativeToolTip": "TuAppMAUI\\Views\\CustomKeyboard.xaml",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAADcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-15T04:13:00.614Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
